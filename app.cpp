@@ -1,6 +1,6 @@
 /**
 * gemaakt door: Michael Scholten
-* datum: 17-1-2021
+* datum: 18-1-2021
 * beschrijving: Een bubble sort algoritme geschreven in c++ en MASM Assembly
 */
 
@@ -44,11 +44,11 @@ void cbsort(uint16_t* arr, uint64_t size) {
 }
 
 // de grootte van de array
-#define max 10000
+#define max 2
 
 int main() {
 	// Bepaalt wat er op het scherm getoond wordt.
-	char mode = 6;
+	char mode = 1;
 	
 	// Maak de array en vul het met de minst efficiënte data voor het gebruikte sorteer algoritme
 	uint16_t* arr = (uint16_t*)malloc(max * 2);

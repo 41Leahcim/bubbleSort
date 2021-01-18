@@ -144,9 +144,7 @@
     <ClCompile Include="app.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <MASM Include="bubbleSort.masm">
-      <FileType>Document</FileType>
-    </MASM>
+    <MASM Include="bubbleSort.asm" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
