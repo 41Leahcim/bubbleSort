@@ -3,7 +3,7 @@
 .code
 
 bsort8 proc
-	; controleer of rdx gelijk is aan 0 en ga direct naar het einde als dat het geval is.
+	; controleer of rdx gelijk is aan 1 en ga direct naar het einde als dat het geval is.
 	cmp rdx, 1
 	jle endloop
 	; geef rax de waarde 1
@@ -42,7 +42,7 @@ increase:
 bsort8 endp
 
 bsort16 proc
-	; vergelijk rdx met 0 en ga naar het einde als dat het geval is.
+	; vergelijk rdx met 1 en ga naar het einde als dat het geval is.
 	cmp rdx, 1
 	jle endloop
 	; geef rax de waarde 1 en geef register 8 de waarde van rcx om rcx vrij te maken.
